@@ -4,6 +4,10 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.space-at-bottom {
+    margin-bottom: 25px;
+}
+
 .filler-content{
     background-color: blue;
     width: 100vw;
@@ -21,12 +25,21 @@ body{
     position: relative;
 }
 
+.bg-black {
+    background-color: black;
+}
+
+#navbar {
+    z-index: 5;
+}
+
 nav {
     width: 100vw;
     background-color: black;
     margin: 0;
     text-align: left;
     padding: 10px 0;
+    
 }
 
 .sticky {
@@ -43,4 +56,24 @@ nav a{
 nav a:hover {
     color: red;
     text-decoration: none;
+}
+
+#intro {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.chapter {
+    text-decoration: underline;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.subchapter {
+    text-align: center;
+    color: white;
+    padding-bottom: 10%;
+    font-size: 1.5em;
 }
