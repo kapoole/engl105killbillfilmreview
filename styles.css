@@ -5,7 +5,11 @@ body{
 }
 
 .space-at-bottom {
-    margin-bottom: 25px;
+    margin-bottom: 5%;
+}
+
+.test-border {
+    border: 1px solid black;
 }
 
 .filler-content{
@@ -14,14 +18,18 @@ body{
     height: 2000px;
 }
 
-.img-responsive {
+.image-responsive {
     width: 100%;
     display: block;
     height: 100vh;
     max-width: 100%;
 }
 
-.img-containter {
+.img-centify {
+    left: 10px;
+}
+
+.image-containter {
     position: relative;
 }
 
@@ -60,7 +68,6 @@ nav a:hover {
 
 .intro {
     margin-top: 100px;
-    margin-bottom: 25px;
 }
 
 .chapter {
@@ -77,3 +84,26 @@ nav a:hover {
     padding-bottom: 10%;
     font-size: 1.5em;
 }
+
+.img-hook {
+    padding-top: 5%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    height: auto;
+}
+
+.movie-poster{
+    padding-top: 5%; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    height: auto;
+}
+
+.img-death-list {
+    width: 33%;
+}
+
