@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.filler-content{
+    background-color: blue;
+    width: 100vw;
+    height: 2000px;
+}
+
+.img-responsive {
+    width: 100%;
+    display: block;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.img-containter {
+    position: relative;
+}
+
+nav {
+    width: 100vw;
+    background-color: black;
+    margin: 0;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a{
+    color: yellow;
+    padding: 0 20px;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: none;
+}
