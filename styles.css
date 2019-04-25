@@ -37,10 +37,6 @@ body{
     background-color: black;
 }
 
-.bg-red {
-    background-color: red;
-    border-radius: 10px;
-}
 
 #navbar {
     z-index: 5;
@@ -179,4 +175,9 @@ nav a:hover {
 
 .img-fuzzy{
     width: 50%;
+}
+
+.bg-red {
+    background-color: red;
+    border-radius: 10px;
 }
